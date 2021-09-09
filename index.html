@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<title>Mike's BikeStuff</title>
+</head>
+<body>
+<div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">The Goods</a>
+                    <a class="nav-link" href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigation -->
+    <!-- Contact Modal/Form -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Send me a note</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <submit href="mailto:mikehkaiser@gmail.com "type="submit" class="btn btn-primary" data-bs-dismiss="modal">Send</submit>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End contact -->
+    <div class="container d-flex">
+        <div class="row d-flex justify-content-around mx-auto">
+            <div class="col-3 d-flex">
+                <!-- Start Product Section -->
+                <!-- Grip card -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/grips-1.jpg" class="grips-card" alt="eso-grips-black">
+                    <div class="card-body">
+                        <h5 class="eso-grips">ESI Chunky Grips: Black</h5>
+                        <p class="card-text">New and unused ESI Chunky grips. Purchased from Rivbike and never used.</p>
+                        <a href="#"><button type="button" data-bs-toggle="modal" 
+                            class="btn btn-primary" data-bs-target="#gripModal">More Info</button></a>
+                    </div>
+                </div>
+                <!-- Grip Modal -->
+                <div class="modal fade" id="gripModal" tabindex="-1" aria-labelledby="gripModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="gripModalLabel">ESI Chunky</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- End Grips -->
+                <!-- Crank card -->
+            <div class="col-3 d-flex">
+                <div class="card pt-5" style="width: 18rem;">
+                    <img src="./assets/crank-1.JPG" class="cranks-card" alt="shimano-400-triple-crankset">
+                    <div class="card-body">
+                        <h5 class="shimano-400-cranks">Shimano 400LX triple cranks</h5>
+                        <p class="card-text">Vintage cranks with oval chainrings and bottom bracket. <br>
+                        Take offs from Schwinn Crosscut</p>
+                        <a href="#"><button type="button" data-bs-toggle="modal" 
+                            class="btn btn-primary" data-bs-target="#crankModal">More Info</button></a>
+                    </div>
+                </div>
+                
+                <!-- Crank modal -->
+                <div class="modal fade" id="crankModal" tabindex="-1" aria-labelledby="crankModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="crankModalLabel">Shimano 400 LX triple cranks</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- End Cranks -->
+                <!-- BB card -->
+            <div class="col-3 d-flex">
+                <div class="card pt-5" style="width: 18rem;">
+                    <img src="./assets/vo-bb-1.JPG" class="vo-bb-card" alt="velo-orange-bottom-bracket">
+                    <div class="card-body">
+                        <h5 class="vo-bb">Velo-Orange 110.5 Bottom Bracket</h5>
+                        <p class="card-text">Used but in excellent condition. Cartridge bearings. English threaded. 100.5 mm spindle.</p>
+                        <a href="#"><button type="button" data-bs-toggle="modal" 
+                            class="btn btn-primary" data-bs-target="#bottomBracketModal">More Info</button></a>
+                    </div>
+                </div>
+                <!-- BB Modal -->
+                <div class="modal fade" id="bottomBracketModal" tabindex="-1" aria-labelledby="bottomBracketModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="bottomBracketModalLabel">Velo-Orange 110.5mm Bottom Bracket</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- End Cranks -->
+                <!-- End Product content -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
